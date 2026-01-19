@@ -5,7 +5,9 @@ return {
     priority = 1000,
     config = function()
       -- This is where you can pass options to the theme
-      require('monokai').setup {}
+      require('monokai').setup {
+        italics = false
+      }
     end,
   },
 
